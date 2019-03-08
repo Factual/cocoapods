@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license              = { :file => 'Notices and Open Source Licenses', :type => 'copyright' }
   s.author               = "Factual Inc"
   s.platform             = :ios
-  s.version              = "9.3.0"
+  s.source               = { :http => "https://factual.bintray.com/files/factual-engine-sdk-ios-#{s.version.to_s}.tar.gz", :flatten => true }
   s.source_files         = "*.h"
   s.preserve_paths       = "libFactualEngine.a"
   s.libraries            = "c++", "z"  
