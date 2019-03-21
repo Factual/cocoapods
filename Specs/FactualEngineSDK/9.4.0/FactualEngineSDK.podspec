@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.libraries            = "c++", "z"  
   s.ios.vendored_library = "libFactualEngine.a"
   s.requires_arc         = true
+  s.static_framework     = true
   s.module_map           = "module.modulemap"
   s.preserve_paths       = "libFactualEngine.a", "module.modulemap"
   s.xcconfig             =  { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/FactualEngineSDK',
