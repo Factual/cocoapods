@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
     s.platform              = :ios
     s.source                = { :http => "https://factual.bintray.com/files/iterable-engine-ios-#{s.version}.tar.gz", :flatten => true }
     s.source_files          = "*.swift"
+    s.static_framework      = true
     s.ios.deployment_target = "9.0"
     s.dependency "FactualEngineSDK"
     s.dependency "Iterable-iOS-SDK"
