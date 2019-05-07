@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.static_framework      = true
   s.xcconfig              = { 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/FactualEngineSDK' }
-  s.dependency "Appboy-iOS-SDK"
-  s.dependency "FactualEngineSDK", "~> 9.4"
+  s.dependency "Appboy-iOS-SDK", ">= 3.0.0"
+  s.dependency "FactualEngineSDK", ">= 9.6.0"
 end
