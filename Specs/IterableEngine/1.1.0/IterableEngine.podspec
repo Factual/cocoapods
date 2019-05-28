@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.source_files          = "*.swift"
     s.static_framework      = true
     s.ios.deployment_target = "9.0"
-    s.dependency "FactualEngineSDK", ">= 9.4.0"
+    s.dependency "FactualEngineSDK", "~> 9.4.0"
     s.dependency "Iterable-iOS-SDK", ">= 6.0.1"
     s.xcconfig              = { 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/FactualEngineSDK' }
 end
