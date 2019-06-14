@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "UrbanAirshipEngine"
+  s.name         = "AirshipEngine"
   s.version      = "1.0.0"
   s.summary      = "Integration library for Factual's Engine SDK and the Urban Airship iOS SDK"
   s.description  = <<-DESC  		   
