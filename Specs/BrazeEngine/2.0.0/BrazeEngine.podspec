@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.platform     	  = :ios
   s.source       	  = { :http => "https://factual.bintray.com/files-internal/braze-engine-ios-#{s.version.to_s}.tar.gz", :flatten => true }
   s.source_files          = "*.{h,m}"
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
   s.static_framework      = true
   s.xcconfig              = { 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/FactualEngineSDK' }
-  s.dependency "Appboy-iOS-SDK", ">= 3.0.0"
+  s.dependency "Appboy-iOS-SDK", ">= 3.12.0"
   s.dependency "FactualEngineSDK", ">= 10.0.0"
 end
