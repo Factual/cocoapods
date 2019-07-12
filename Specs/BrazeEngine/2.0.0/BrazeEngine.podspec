@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      	  = "MIT"
   s.author       	  = { "Factual Inc" => "mobile@factual.com" }
   s.platform     	  = :ios
-  s.source       	  = { :http => "https://factual.bintray.com/files-internal/braze-engine-ios-#{s.version.to_s}.tar.gz", :flatten => true }
+  s.source       	  = { :http => "https://factual.bintray.com/files/braze-engine-ios-#{s.version.to_s}.tar.gz", :flatten => true }
   s.source_files          = "*.{h,m}"
   s.ios.deployment_target = "9.0"
   s.static_framework      = true
