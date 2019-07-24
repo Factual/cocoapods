@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.xcconfig         = { 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/FactualEngineSDK' }
   s.dependency "Analytics", ">= 3.6.0"
+  s.dependency "IntegrationUtils"
   s.dependency "FactualEngineSDK", ">= 11.0.0"
 end
