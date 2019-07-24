@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         	   = "IntegrationUtils"
   s.version     	   = "1.0.0"
-  s.summary      	   = "Utility library for integration libraries."
+  s.summary      	   = "Utility tools for integration libraries."
   s.homepage     	   = "https://www.factual.com/products/engine"
   s.license      	   = "MIT"
   s.author       	   = { "Factual Inc" => "mobile@factual.com" }
