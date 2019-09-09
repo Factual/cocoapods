@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                 = "FactualEngineSDK"
-  s.version              = "10.0.0"
+  s.version              = "12.1.0"
   s.summary              = "FactualEngineSDK"
   s.homepage             = "https://www.factual.com/products/engine"
   s.license              = { :file => 'Notices and Open Source Licenses', :type => 'copyright' }
